@@ -1,0 +1,99 @@
+body {
+    background-color: #f8f4ea;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+    background-color: #3D5229;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.sidebar a {
+    color: #e6d8c3;
+    text-decoration: none;
+    display: block;
+    padding: 12px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #556B2F;
+    color: #fff;
+}
+
+.topbar {
+    background-color: #9e5e40;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+.card {
+    border: 1px solid #e0d4b7;
+    border-radius: 12px;
+}
+
+.card h5 {
+    color: #3D5229;
+}
+
+.dash-card {
+    border-radius: 12px;
+    border: 1px solid #e0d4b7;
+    transition: transform 0.3s ease;
+}
+
+.dash-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Section Title */
+.section-title {
+    font-weight: 600;
+    color: #3D5229;
+    margin-bottom: 20px;
+}
+
+/* Recent Products */
+.recent-card {
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #e0d4b7;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recent-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+.recent-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Quick Actions */
+.quick-card {
+    border: 1px solid #e0d4b7;
+    background: #fff;
+    border-radius: 12px;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.quick-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Brown Button */
+.btn-brown {
+    background-color: #9e5e40;
+    color: white;
+}
+
+.btn-brown:hover {
+    background-color: #3D5229;
+}
